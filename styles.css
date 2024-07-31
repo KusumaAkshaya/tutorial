@@ -1,0 +1,164 @@
+
+    *{
+      margin: 0;
+    }
+    .set1{
+    background-image: url("https://images.deccanherald.com/deccanherald/import/sites/dh/files/articleimages/2023/08/05/iitkharagpur-1-1065917-1640783862-1067917-1641309315-1244051-1691247058.jpg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true");
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat; 
+   }
+  .key{
+  width: 65vw;
+  height: 45vh;
+  position: relative;
+  background-color: rgba(249, 204, 56, 0.385);
+  top: 20vh;
+  border-radius: 40%;
+  padding: 4vw;
+  animation : hello 3s 1;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+  font-family: Margarine;
+  font-weight: lighter; 
+}
+  
+@keyframes hello{
+  from{left: 0vw ; background-color: rgba(250, 235, 215, 0.571);}
+  to{left: 15vw; background-color: rgba(0, 255, 251, 0.118);}
+}
+  .set2{
+    font-size: 35px;
+    background-color: rgba(255, 148, 8, 0.779) ;
+    color: rgba(65, 2, 2, 0.952);
+    font-family: Margarine;
+    margin: 0;
+  }
+  .illu{
+  background-image: url('./illu2.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 110vh;
+  font-family: "Playwrite BE VLG", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  }
+   .header{
+   position: relative;
+    font-size: 5vw;
+    text-align: center;
+   }
+
+#illu1{
+  background-color: rgba(52, 30, 1, 0.477);
+  color: white;
+  width: 30vw;
+  min-width: 300px;
+  height: auto;
+  padding: 3vw;
+  border-radius: 40%;
+  position: relative;
+}
+
+a {
+  color: yellow;
+}
+
+a::after{
+  color: white;
+}
+
+#illu2{
+  background-image: url('./illu2.jpg');
+  background-size: cover;
+  width: 30vh;
+  height: auto;
+  }
+
+.springfest{
+  background-image: url('./springFest.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 110vh;
+  font-family: "Playwrite BE VLG", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  }
+
+  .ktj{
+    background-image: url('./ktj1.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100vw;
+    height: 100vh;
+    font-family: "Playwrite BE VLG", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    align-items:flex-end;
+    }
+  
+
+  #SF{
+    background-color: rgba(174, 48, 237, 0.293);
+    color: rgba(247, 247, 84, 0.788);
+    width: 30vw;
+    min-width: 300px;
+    height: auto;
+    padding: 3vw;
+    border-radius: 40%;
+    position: relative;
+  }
+
+  #ktj1{
+    background-color: rgba(48, 124, 237, 0.441);
+    color: rgba(254, 254, 249, 0.899);
+    width: 30vw;
+    min-width: 450px;
+    height: auto;
+    padding: 5vw;
+    border-radius: 40%;
+    position: relative;
+  }
+
+  .exp{
+    background-color: rgba(0, 14, 55, 0.884);
+    color: #f2f3b0b9;
+    font-family: "Playwrite BE VLG", cursive;
+      text-align: center;
+    padding-bottom: 3vw;
+    }
+
+  form  input[type]{
+    font-size: 20px;
+    border: 5px solid #f2f3b0b9;
+    border-radius: 30px;
+    width: 34vw;
+    text-align: left;
+  }
+ form  input[type="submit"]{
+  background-color: #f2f3b0f4;
+  text-align: center;
+}
+
+footer{
+  flex-shrink: 0;
+  padding: 20px 0;
+  color: #ffffff;
+  background-color: rgba(34, 39, 39, 0.907);
+  font-size:1.15rem;
+  text-align: center;
+  font-family: Margarine;
+}
+
+@media only screen and (max-device-width: 1024px){
+  .ktj, .springfest, .illu, .key{
+   background-attachment: scroll;
+   
+  }
+}
