@@ -156,7 +156,7 @@ footer{
   font-family: Margarine;
 }
 
-@media only screen and (max-device-width: 1024px){
+@media only screen and (max-device-width: 500px){
   .ktj, .springfest, .illu, .key{
    background-attachment: scroll;
    
